@@ -1,0 +1,3 @@
+# Optional: richer Statcast/FanGraphs historical features.
+# Heavier install; the core pipeline runs fine on MLB StatsAPI game logs without this.
+pybaseball==2.2.7

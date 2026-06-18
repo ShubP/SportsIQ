@@ -1,0 +1,36 @@
+# --- Secrets / env ---
+.env
+.env.local
+*.local
+
+# --- Local reference copy of the original class project (not for the public repo) ---
+_legacy/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# --- Local dev database + model artifacts ---
+backend/courtiq.db
+backend/courtiq.db-journal
+backend/models/*.joblib
+
+# --- Node / frontend ---
+node_modules/
+web/dist/
+web/.vite/
+*.tsbuildinfo
+# tsc -b composite emit (generated from vite.config.ts)
+web/vite.config.js
+web/vite.config.d.ts
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
